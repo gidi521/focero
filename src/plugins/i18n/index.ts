@@ -20,16 +20,17 @@ const siphonI18n = (function () {
 })();
 
 export const messagesData: { [key: string]: any } = {
-  'zh-cn': {
-    langName: '简体中文',
-    ...siphonI18n("zh-cn")
-  },
   en: {
     langName: 'English',
     ...siphonI18n("en")
   },
+  'zh-cn': {
+    langName: '简体中文',
+    ...siphonI18n("zh-cn")
+  },
+ 
   ja: {
-    langName: '日语',
+    langName: '日本語',
     ...siphonI18n("ja")
   }
 };
