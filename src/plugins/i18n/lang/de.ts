@@ -108,15 +108,5 @@ export default {
 				li2: 'Pomodoro für Studenten – Teile deinen Lernstoff effektiv ein und behalte den Überblick.',
 			}
 		}
-	},
-	footer: {
-		title: 'Focero – Online Pomodoro-Timer',
-		description: 'Ein einfacher, anpassbarer und ablenkungsfreier Pomodoro-Timer für Fokus und Produktivität. Arbeite, lerne und ruhe dich effizient mit Focero aus.',
-		links: {
-			privacy: 'Datenschutzrichtlinie',
-			terms: 'Nutzungsbedingungen',
-			contact: 'Kontakt',
-			language: 'Sprache',
-		}
 	}
 }
