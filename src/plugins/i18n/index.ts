@@ -33,6 +33,11 @@ export const messagesData: { [key: string]: any } = {
     langName: '日本語',
     ...siphonI18n("ja")
   }
+   
+  de: {
+    langName: 'Deutsch',
+    ...siphonI18n("de")
+  }
 };
 
 const language = computed(() => {
