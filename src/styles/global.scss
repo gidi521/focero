@@ -1,0 +1,319 @@
+/**
+自定义
+*/
+div {
+  // color: $colorDim;
+  box-sizing: border-box !important;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// @keyframes rotateAnimation {
+//   from {
+//       transform: rotate(0deg);
+//   }
+
+//   to {
+//       transform: rotate(360deg);
+//   }
+// }
+
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font: inherit;
+
+  margin: 0;
+  padding: 0;
+
+  vertical-align: baseline;
+
+  border: 0;
+
+  text-decoration: none !important;
+}
+
+ol,
+ul {
+  // list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  -o-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+// 公共样式（可拖拽） 
+.drag {
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+// 公共样式（不可拖拽）
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+// 空间顶部可拖拽容器
+.drag-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 999;
+}
+
+// 文字单行省略
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//滚动条样式
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg-color);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+::-webkit-scrollbar-corner {
+  background: #bfbfbf;
+}
+
+:root {
+  // 暗色模式
+  --dark_WaiF: #656464; // 默认空白内容文字颜色
+  --dark-bg: #333333; // 背景色
+  --dark-text: #fff; // 文字颜色
+  // 亮色模式
+  --light-bg: #fbfbfb; // 背景色
+  --light-background-color: #f8f8f8; // 基础背景色
+  --light-text: #333; // 文字颜色
+  // 公共样式
+  --btn-bg: #4a89fc; // 按钮样式
+}
+
+// login
+:root {
+  --primary-color: #4460f1;
+  --white-color: #ffffff;
+  --light-text-color: #9398b3;
+  --light-bg-color: #f2f4ff;
+  --dark-color: #333333;
+  --background-color: #fcfcff;
+}
+
+// 抽屉样式
+.el-overlay {
+  .aa {
+    margin-bottom: 10px;
+  }
+}
+
+@media(min-width: 1400px) {
+
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .el-popper {
+    width: 320px !important;
+    height: 50vh !important;
+    overflow: scroll !important;
+
+    .popover-content {
+
+      .popover-head {
+        padding: 10px 0 !important;
+        font-size: 18px !important;
+
+        div {
+          width: 24px !important;
+          height: 24px !important;
+
+          .iconfont {
+            font-size: 12px;
+          }
+        }
+
+      }
+      .popover-main{
+        .popover-box{
+          // width: 80px !important;
+        }
+      }
+    }
+  }
+
+  .el-dialog{
+    width: 80vw !important;
+  }
+
+  .el-drawer{
+    width: 60vw !important;
+  }
+
+  .content-static{
+    h2{
+      font-size: 26px !important;
+    }
+  }
+}
+
+@media (full-screen) {
+  body {
+    // overflow: hidden; /* 防止滚动条出现 */
+    // overflow: scroll;
+  }
+
+  .enter-container {
+    // overflow: scroll;
+    // border: 1px solid red;
+  }
+
+  // .your-element {
+  //     width: 100vw;
+  //     height: 100vh;
+  // }
+}

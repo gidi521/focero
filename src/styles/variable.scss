@@ -1,0 +1,22 @@
+// 默认的主题颜色  rgba(24, 24, 24, .3)
+$background: var(--background, linear-gradient(rgba(24, 24, 24, .3) 460px, rgb(240, 244, 245) 180px));
+$background-img: var(--background-img, rgb(135, 86, 86));
+
+$color: var(--color, black);
+$colorDim: #34495e;
+$color-b: var(--color-b, #ffffff);
+$color-a: var(--color-a, #aaa); // 暗
+$color-d: #536de6; // 
+
+$border-color: #dee2e6;
+
+$radius-small: 6px;  // 小
+$radius-big: 12px;  // 大
+
+// 字体图标
+$icon-size: var(--icon-size, 26px);
+
+$nav-color: var(--nav-color, $colorDim);
+
+$bg-box: #ffffff60;
+

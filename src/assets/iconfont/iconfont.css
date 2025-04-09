@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4877549 */
+  src: url('iconfont.woff2?t=1744086865422') format('woff2'),
+       url('iconfont.woff?t=1744086865422') format('woff'),
+       url('iconfont.ttf?t=1744086865422') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-duoyuyanyingwen:before {
+  content: "\ecd7";
+}
+
+.icon-yuyanqiehuan:before {
+  content: "\e6d5";
+}
+
+.icon-bianji1:before {
+  content: "\e756";
+}
+
+.icon-bianji2:before {
+  content: "\e645";
+}
+
+.icon-bianji3:before {
+  content: "\e737";
+}
+
+.icon-task:before {
+  content: "\e696";
+}
+
+.icon-daibanrenwu:before {
+  content: "\e600";
+}
+
+.icon-taskmanagement:before {
+  content: "\e623";
+}
+
+.icon-task1:before {
+  content: "\e62e";
+}
+
+.icon-task2:before {
+  content: "\e803";
+}
+
+.icon-shezhi:before {
+  content: "\e675";
+}
+
+.icon-zhongxinjiazai:before {
+  content: "\e6f1";
+}
+
+.icon-quanping:before {
+  content: "\e634";
+}
+
+.icon-a-5Jyinboyinpin:before {
+  content: "\e671";
+}
+
+.icon-yinle:before {
+  content: "\e866";
+}
+
+.icon-shijian:before {
+  content: "\e60d";
+}
+
+.icon-lingdang-xianxing:before {
+  content: "\e8c0";
+}
+
+.icon-xiajiantou:before {
+  content: "\eb6d";
+}
+
+.icon-shangjiantou:before {
+  content: "\eb6e";
+}
+
+.icon-sousuo:before {
+  content: "\e647";
+}
+
+.icon-jiantou_liebiaoxiangyou:before {
+  content: "\eb03";
+}
+
+.icon-jiantou_liebiaoshouqi:before {
+  content: "\eb04";
+}
+
+.icon-jiantou_liebiaoxiangzuo:before {
+  content: "\eb05";
+}
+
+.icon-jiantou_liebiaozhankai:before {
+  content: "\eb06";
+}
+
+.icon-fenlei5:before {
+  content: "\e753";
+}
+
+.icon-huanfu:before {
+  content: "\e622";
+}
+
+.icon-jiantou1:before {
+  content: "\e602";
+}
+
+.icon-jiantou:before {
+  content: "\e603";
+}
+
+.icon-zhongyingqiehuan1:before {
+  content: "\e6bd";
+}
+
+.icon-a-43changjianwenti:before {
+  content: "\e605";
+}
+
+.icon-shezhitubiao:before {
+  content: "\e615";
+}
+
+.icon-ziyuan:before {
+  content: "\e601";
+}
+
+.icon-shezhitubiao1:before {
+  content: "\e666";
+}
+
