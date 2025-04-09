@@ -32,12 +32,11 @@ export const messagesData: { [key: string]: any } = {
   ja: {
     langName: '日本語',
     ...siphonI18n("ja")
-  }
-   
+  }, 
   de: {
     langName: 'Deutsch',
     ...siphonI18n("de")
-  }
+  },
  es: {
     langName: 'Español',
     ...siphonI18n("es")
