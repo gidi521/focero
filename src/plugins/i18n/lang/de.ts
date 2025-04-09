@@ -73,9 +73,50 @@ export default {
 			content: 'Focero ist ein intuitiver und anpassbarer Pomodoro-Timer, der dir hilft, fokussiert und organisiert durch deinen Tag zu kommen. Es ist nicht nur ein Timer – es ist ein umfassendes Produktivitätstool, das mit deinem natürlichen Rhythmus arbeitet und deine Effizienz steigert, während du im Gleichgewicht bleibst.',
 			content2: 'So verbessert Focero deine Pomodoro-Erfahrung:',
 			list: {
-				li1: 'Einfache und saubere Benutzeroberfläche. Focero hat ein minimalistisches Design, das einfach zu bedienen ist, auch für Anfänger. Die einfache Benutzeroberfläche stellt sicher, dass du deine Pomodoro-Session mit nur wenigen Klicks starten kannst. Keine Zeitverschwendung mit komplexen Timer-Einstellungen – starte einfach deine Arbeitszeit und lass Focero den Rest erledigen.',
-				li2: 'Anpassbare Timer-Einstellungen. Während der traditionelle Pomodoro-Zyklus 25 Minuten Arbeit gefolgt von einer 5-minütigen Pause umfasst, ermöglicht es dir Focero, deinen Pomodoro-Timer nach deinen persönlichen Vorlieben anzupassen. Ob du eine 15-minütige Pomodoro für eine schnelle Aufgabe oder eine längere 50-minütige Pomodoro für tiefe Arbeit benötigst, Focero passt sich deinen Bedürfnissen an.',
-				li3: 'Fokussiere dich auf das Wesentliche. Das Design von Focero minimiert Ablenkungen. Du kannst sogar eine To-Do-Liste für deine Aufgaben innerhalb der App erstellen, bei der du deine Aufgaben priorisieren und deinen Fortschritt verfolgen kannst. Jede Aufgabe hat ihren eigenen Pomodoro-Timer, sodass du immer nur an einer Sache gleichzeitig arbeitest.',
-				li4: 'Mobile-freundliche Oberfläche. In der heutigen, mobil orientierten Welt ist es wichtig, einen Pomodoro-Timer zu haben, der auf allen Geräten funktioniert. Focero ist für mobile Geräte optimiert, sodass du deine Pomodoro-Session auf deinem Smartphone, Tablet oder Desktop immer griffbereit hast.',
-				li5: 'Pausenerinnerungen. Ein wichtiger Teil der Pomodoro-Technik ist es, regelmäßig Pausen einzulegen. Focero bietet Pausenerinnerungen, die dir helfen, zu erkennen, wann es Zeit ist, eine Pause zu machen und dich zu erholen. Diese Erinnerungen können auch entspannende Umgebungsgeräusche beinhalten, um deine Pausen angenehmer zu gestalten.',
-				li6: 'Umgebungsgeräusche für tiefe Konzentration. Focero hebt das Fokus-Erlebnis auf die nächste Stufe mit eingebauten Umgebungsgeräuschen. Ob
+				li1: 'Einfache und saubere Benutzeroberfläche. Focero hat ein minimalistisches Design, das einfach zu bedienen ist, auch für Anfänger.',
+				li2: 'Anpassbare Timer-Einstellungen. Du kannst deine Fokus- und Pausenzeiten frei konfigurieren.',
+				li3: 'Fokussiere dich auf das Wesentliche. Eine To-Do-Liste hilft dir, deine Aufgaben zu priorisieren und deinen Fortschritt zu verfolgen.',
+				li4: 'Mobilfreundliches Design. Optimiert für Smartphones, Tablets und Desktops.',
+				li5: 'Pausenerinnerungen. Lass dich rechtzeitig an Pausen erinnern und entspanne dich mit beruhigenden Klängen.',
+				li6: 'Umgebungsgeräusche für tiefe Konzentration. Wähle zwischen weißem Rauschen, Naturklängen oder beruhigender Musik.',
+				li7: 'Plattformübergreifende Integration. Kompatibel mit Trello, Notion, Asana, ClickUp und mehr.',
+			}
+		},
+		five: {
+			title: 'Was ist die Pomodoro-Technik?',
+			content: 'Die Pomodoro-Technik wurde von Francesco Cirillo entwickelt. Sie nutzt einen Timer, um Arbeit in 25-minütige Intervalle mit kurzen Pausen zu unterteilen. Jedes Intervall wird als "Pomodoro" bezeichnet, benannt nach dem tomatenförmigen Küchen-Timer, den Cirillo während seines Studiums verwendete.',
+		},
+		six: {
+			title: 'Warum die Pomodoro-Technik funktioniert',
+			content: 'Die Pomodoro-Technik nutzt die natürliche Fähigkeit des Gehirns, sich über kurze Zeitspannen hinweg zu konzentrieren. Durch regelmäßige Pausen bleibt der Geist frisch und überfordert sich nicht. So kann die Konzentration über den Tag hinweg konstant hoch bleiben.',
+		},
+		seven: {
+			title: 'Die wichtigsten Vorteile der Pomodoro-Technik:',
+			list: {
+				li1: '🔸 Verbesserte Konzentration – Kürzere Intervalle fördern Fokus.',
+				li2: '🔸 Weniger geistige Ermüdung – Regelmäßige Pausen halten dich frisch.',
+				li3: '🔸 Bessere Zeitplanung – Klare Struktur hilft bei der Aufgabenverteilung.',
+				li4: '🔸 Höhere Produktivität – Mehr erreichen in kürzerer Zeit.',
+				li5: '🔸 Gesünderes Gleichgewicht – Pausen fördern das Wohlbefinden.',
+			}
+		},
+		eight: {
+			title: 'Pomodoro für Studium und Arbeit',
+			content: 'Die Pomodoro-Technik ist ideal für Studierende und Berufstätige. Große Lernmengen lassen sich in kleine Einheiten unterteilen, und Fokuszeiten können gezielt geplant werden.',
+			list: {
+				li1: 'Pomodoro für die Arbeit – Konzentriere dich auf eine Aufgabe zur Zeit.',
+				li2: 'Pomodoro für Studenten – Teile deinen Lernstoff effektiv ein und behalte den Überblick.',
+			}
+		}
+	},
+	footer: {
+		title: 'Focero – Online Pomodoro-Timer',
+		description: 'Ein einfacher, anpassbarer und ablenkungsfreier Pomodoro-Timer für Fokus und Produktivität. Arbeite, lerne und ruhe dich effizient mit Focero aus.',
+		links: {
+			privacy: 'Datenschutzrichtlinie',
+			terms: 'Nutzungsbedingungen',
+			contact: 'Kontakt',
+			language: 'Sprache',
+		}
+	}
+}
