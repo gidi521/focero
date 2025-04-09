@@ -26,8 +26,8 @@ const routes: Array<RouteRecordRaw> = [
 
 // 配置router
 const router = createRouter({
-    // history: createWebHistory(),
-    history:createWebHashHistory(),
+   history: createWebHistory(),
+   //   history:createWebHashHistory(),
     routes
 });
 
