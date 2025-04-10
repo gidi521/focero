@@ -40,7 +40,7 @@ export const messagesData: { [key: string]: any } = {
  es: {
     langName: 'Español',
     ...siphonI18n("es")
-  }
+  },
  pt: {
     langName: 'Português',
     ...siphonI18n("pt")
