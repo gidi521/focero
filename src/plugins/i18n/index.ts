@@ -41,6 +41,10 @@ export const messagesData: { [key: string]: any } = {
     langName: 'Español',
     ...siphonI18n("es")
   }
+ pt: {
+    langName: 'Português',
+    ...siphonI18n("pt")
+  }
 };
 
 const language = computed(() => {
