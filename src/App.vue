@@ -25,7 +25,7 @@ provide('fullScreen', handleFullScreen)
   <div class="enter-container" ref="fullScreenRef">
     <!-- <Header msg="我的"></Header> -->
 
-    <RouterView></RouterView>
+      <RouterView></RouterView>
   </div>
 </template>
 

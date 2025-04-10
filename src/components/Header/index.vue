@@ -28,7 +28,7 @@ watch(scrollTopNum, (newVal, oldVal) => {
         <nav class="p-0 col-lg-6 col-md-6 col-sm-5 col-5 nav-content">
           <ul style="list-style: none;" class="d-flex justify-content-end align-items-center">
             <!-- @click="onRoute('/')" -->
-            <li >
+            <li>
               <a href="#" class="nav-txt">
               </a>
             </li>
@@ -36,7 +36,9 @@ watch(scrollTopNum, (newVal, oldVal) => {
         </nav>
 
         <div class="p-0 col-lg-4 col-md-4 col-sm-5 col-5 actions-content">
-          <RightSide></RightSide>
+          <keep-alive>
+            <RightSide></RightSide>
+          </keep-alive>
         </div>
       </div>
     </div>
@@ -87,6 +89,7 @@ watch(scrollTopNum, (newVal, oldVal) => {
   display: flex;
   align-items: center;
   justify-content: center;
+
   img {
     width: 130px;
     filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
@@ -192,6 +195,5 @@ watch(scrollTopNum, (newVal, oldVal) => {
 }
 
 // 右边区域
-.actions-content {
-}
+.actions-content {}
 </style>
